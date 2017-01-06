@@ -1,0 +1,7 @@
+spring:
+  jpa:
+    database: h2
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create-drop
+    database-platform: org.hibernate.spatial.dialect.h2geodb.GeoDBDialect
